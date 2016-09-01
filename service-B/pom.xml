@@ -9,7 +9,7 @@
     <version>1.0.1</version>
     <packaging>jar</packaging>
 
-    <name>compute-service</name>
+    <name>service-B</name>
     <description>Spring Cloud project</description>
 
     <parent>
