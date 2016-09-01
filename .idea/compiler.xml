@@ -28,6 +28,7 @@
         <module name="eureka-feign" />
         <module name="eureka-ribbon" />
         <module name="service" />
+        <module name="service-B" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,6 +38,7 @@
       <module name="eureka-feign" target="1.8" />
       <module name="eureka-ribbon" target="1.8" />
       <module name="service" target="1.8" />
+      <module name="service-B" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
