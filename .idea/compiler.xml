@@ -22,6 +22,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="config-server" />
         <module name="eureka" />
         <module name="eureka-feign" />
         <module name="eureka-ribbon" />
@@ -29,6 +30,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config-server" target="1.8" />
       <module name="eureka" target="1.8" />
       <module name="eureka-feign" target="1.8" />
       <module name="eureka-ribbon" target="1.8" />
