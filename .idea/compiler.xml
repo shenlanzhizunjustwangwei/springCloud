@@ -28,7 +28,9 @@
         <module name="eureka" />
         <module name="eureka-feign" />
         <module name="eureka-ribbon" />
+        <module name="eureka-server1" />
         <module name="service" />
+        <module name="service-A" />
         <module name="service-B" />
       </profile>
     </annotationProcessing>
@@ -39,7 +41,10 @@
       <module name="eureka" target="1.8" />
       <module name="eureka-feign" target="1.8" />
       <module name="eureka-ribbon" target="1.8" />
+      <module name="eureka-server1" target="1.8" />
+      <module name="eureka-server2" target="1.8" />
       <module name="service" target="1.8" />
+      <module name="service-A" target="1.8" />
       <module name="service-B" target="1.8" />
     </bytecodeTargetLevel>
   </component>

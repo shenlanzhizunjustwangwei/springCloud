@@ -14,10 +14,12 @@ public class TestController {
 
     @Value("${from}")
     private String from;
+    @Value("${test}")
+    private String test;
 
     @RequestMapping("/from")
     public String from(){
-        return this.from;
+        return this.from+this.test;
     }
 
     public String getFrom() {
@@ -26,5 +28,13 @@ public class TestController {
 
     public void setFrom(String from) {
         this.from = from;
+    }
+
+    public String getTest() {
+        return test;
+    }
+
+    public void setTest(String test) {
+        this.test = test;
     }
 }

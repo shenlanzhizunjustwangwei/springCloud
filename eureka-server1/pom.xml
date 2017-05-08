@@ -11,7 +11,7 @@
 
     <packaging>jar</packaging>
 
-    <name>eureka-server</name>
+    <name>eureka-server1</name>
     <description>Spring Cloud project</description>
 
     <parent>
